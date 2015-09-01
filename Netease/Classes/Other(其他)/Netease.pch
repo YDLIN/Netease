@@ -1,0 +1,18 @@
+//
+//  Netease.pch
+//  Netease
+//
+//  Created by Du on 15/7/27.
+//  Copyright (c) 2015年 Du. All rights reserved.
+//
+
+#ifdef __OBJC__//保证只有在OC文件才导入宏定义
+#define DuScreenBounds [UIScreen mainScreen].bounds
+#define DuRGBAColor(r,g,b,a) [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:a/1.0]
+#define DuKeyWindow
+
+#import "UIColor+randomColor.h"
+#import "UIView+Frame.h"
+#import "UIImage+ColorImage.h"
+#import "UIBarButtonItem+customItem.h"
+#endif
